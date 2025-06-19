@@ -23,11 +23,11 @@ adoption, helping teams interpret reports and make actionable business insights.
 continuous improvement in financial reporting and decision support tools.  
 Environment: Microsoft Excel, Power Query, Tableau, Python, PyCharm, JIRA, SQL</p>
       </div>
-      {/* <div className="job-entry">
-        <h3>Apprentice General Manager</h3>
-        <div className="company">Chipotle | 2024–Present</div>
-        <p>Oversaw operations, trained staff, and optimized store performance.</p>
-      </div> */}
+        {/* <div className="job-entry">
+          <h3>Apprentice General Manager</h3>
+          <div className="company">Chipotle | 2024–Present</div>
+          <p>Oversaw operations, trained staff, and optimized store performance.</p>
+        </div> */}
     </section>
   );
 }
