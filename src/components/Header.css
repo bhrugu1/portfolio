@@ -1,0 +1,69 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 60px;
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  margin-right: 20px; /* ⬅️ shifts all links left to give space for dark mode */
+}
+
+body.dark .nav-links a {
+  color: white !important;
+}
+
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.dark-toggle {
+  cursor: pointer;
+  font-size: 14px;
+  padding-top: 2px; /* optional vertical alignment */
+}
+
+
+.dark-toggle:hover {
+  transform: scale(1.2);
+}
+
+/* Dark mode styling */
+body.dark {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+body.dark .header {
+  background-color: #1a1a1a;
+  border-bottom: 1px solid #333;
+}
+
+body.dark .nav-links a {
+  color: #90caf9;
+}
+
+body.dark .dark-toggle {
+  color: #90caf9;
+}
+body.dark .dark-toggle:hover {
+  color: #fff;
+}

@@ -1,0 +1,38 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.dark-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px 16px;
+  background: #0077ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  z-index: 999;
+  cursor: pointer;
+}
+
+/* Dark mode styles */
+body.dark {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+body.dark a {
+  color: #90caf9;
+}
+
+body.dark .project-card {
+  background-color: #1e1e1e;
+  border-color: #333;
+}
+
+body.dark .footer {
+  background-color: #1e1e1e;
+  color: #aaa;
+  border-top: 1px solid #333;
+}
