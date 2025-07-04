@@ -6,6 +6,21 @@ const projectData = {
   'sales-dashboard': {
     title: 'Sales Performance Dashboard',
     description: 'An interactive dashboard using Power BI, tracking sales KPIs with DAX calculations.',
+    features: [
+      'Built using Power BI and Excel with real sales data',
+      'Tracked KPIs such as total revenue, monthly trends, and top-selling products',
+      'Used DAX to calculate dynamic metrics and year-over-year growth',
+      'Interactive visuals with slicers and drill-through pages',
+      'Designed for business users to make informed decisions quickly'
+    ],
+    technologies: [
+      'Power BI',
+      'DAX',
+      'Excel',
+      'Data Visualization',
+      'KPI Dashboards',
+      'Data Analysis'
+    ],
     screenshots: ['/images/FinalScreenshot.png', '/images/otherproject.png'], // Add these to public/images
   },
   'restaurant-db': {
@@ -29,7 +44,7 @@ const projectData = {
     ],
     liveDemo: 'https://portfolio-bhrugu1s-projects.vercel.app/',       // 👈 replace with your real URL
     githubRepo: 'https://github.com/bhrugu1/portfolio'
-    //screenshots: ['/images/restaurant1.png'],
+    //screenshots: ['/images/restaurant1.png'], 
   },
 };
 
@@ -80,11 +95,15 @@ function ProjectDetail() {
       </div>
 
 
-      {/* <div className="screenshots">
-        {project.screenshots.map((src, index) => (
-          <img key={index} src={src} alt={`Screenshot ${index + 1}`} />
-        ))}
-      </div> */}
+      {project.screenshots && (
+        <div className="screenshots">
+          <h3>Screenshots</h3>
+          {project.screenshots.map((src, index) => (
+            <img key={index} src={src} alt={`Screenshot ${index + 1}`} />
+          ))}
+        </div>
+      )}
+
     </div>
   );
 }
