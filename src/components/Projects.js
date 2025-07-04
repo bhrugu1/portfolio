@@ -10,7 +10,7 @@ const projectList = [
   },
   {
     id: 'restaurant-db',
-    title: 'PORTFOLIO WEBSITE',
+    title: 'PERSONAL PORTFOLIO WEBSITE',
     summary: 'A sleek personal portfolio showcasing my skills and projects.',
   },
 ];
