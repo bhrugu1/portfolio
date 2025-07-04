@@ -6,7 +6,7 @@ const projectData = {
   'sales-dashboard': {
     title: 'Sales Performance Dashboard',
     description: 'An interactive dashboard using Power BI, tracking sales KPIs with DAX calculations.',
-    screenshots: ['/images/sales1.png', '/images/sales2.png'], // Add these to public/images
+    screenshots: ['/images/FinalScreenshot.png', '/images/otherproject.png'], // Add these to public/images
   },
   'restaurant-db': {
     title: 'Restaurant Management System',
