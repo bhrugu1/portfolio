@@ -5,7 +5,18 @@ import './ProjectDetails.css';
 const projectData = {
   'sales-dashboard': {
     title: 'Sales Performance Dashboard',
-    description: 'An interactive dashboard using Power BI, tracking sales KPIs with DAX calculations.',
+    description: `The Sales Performance Dashboard is an interactive and visually-driven analytics solution built in Power BI, designed for a fictional supermarket business to analyze and monitor sales and profit performance across multiple dimensions. It leverages DAX formulas and Excel-based data modeling to present real-time insights into key sales metrics.
+
+The dashboard highlights total sales, total profit, and profit percentage at a glance, followed by detailed visual breakdowns including:
+- Monthly performance comparison of sales and profit
+- Top-selling products and their contribution to revenue
+- Sales distribution by type (Online, Wholesale, Direct)
+- Payment method breakdown
+- Daily sales trend analysis
+
+It features fully interactive slicers for year, month, sale type, and payment mode, allowing end users to filter and drill into the data instantly. Designed with a clean dark theme and clear KPIs, the dashboard helps stakeholders quickly identify sales trends, product performance, and operational focus areas.
+
+This project demonstrates skills in data modeling, DAX calculations, and dashboard storytelling, making it ideal for business users looking to make data-informed decisions.`,
     features: [
       'Built using Power BI and Excel with real sales data',
       'Tracked KPIs such as total revenue, monthly trends, and top-selling products',
@@ -57,7 +68,8 @@ function ProjectDetail() {
   return (
     <div className="project-detail">
       <h2>{project.title}</h2>
-      <p>{project.description}</p>
+     <p style={{ whiteSpace: 'pre-line' }}>{project.description}</p>
+
 
       {project.features && (
         <div className="features">
