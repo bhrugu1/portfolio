@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Header.css';
+import { Link } from 'react-router-dom';
 
 function Header() {
   // const [darkMode, setDarkMode] = useState(true);
@@ -25,7 +26,7 @@ useEffect(() => {
 
   return (
     <header className="header">
-      <div className="logo">Bhrugu Raval</div>
+      <Link to="/" className="logo">Bhrugu Raval</Link>
       <nav className="nav-links">
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
