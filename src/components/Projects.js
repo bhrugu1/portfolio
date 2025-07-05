@@ -14,7 +14,13 @@ const projectList = [
     title: 'PERSONAL PORTFOLIO WEBSITE',
     summary: 'A sleek personal portfolio showcasing my skills and projects.',
   },
+  {
+    id: 'netflix-analysis',
+    title: 'NETFLIX DATA ANALYSIS',
+    summary: 'A Python-based exploratory data analysis on Netflix content trends using pandas and seaborn.',
+  },
 ];
+
 
 function Projects() {
   return (

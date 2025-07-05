@@ -51,61 +51,6 @@ This project demonstrates strong skills in data modeling, DAX calculations, and 
 
   outcome: `The dashboard helped business stakeholders reduce manual reporting efforts and make quicker data-driven decisions. It supported better visibility into sales performance and allowed for targeted business improvements.`
 },  
-
-//   'sales-dashboard': {
-//     title: 'Sales Performance Dashboard',
-//     description: `The Sales Performance Dashboard is an interactive and visually-driven analytics solution built in Power BI, designed for a fictional supermarket business to analyze and monitor sales and profit performance across multiple dimensions. It leverages DAX formulas and Excel-based data modeling to present real-time insights into key sales metrics.
-
-// The dashboard highlights total sales, total profit, and profit percentage at a glance, followed by detailed visual breakdowns including:
-// - Monthly performance comparison of sales and profit
-// - Top-selling products and their contribution to revenue
-// - Sales distribution by type (Online, Wholesale, Direct)
-// - Payment method breakdown
-// - Daily sales trend analysis
-
-// It features fully interactive slicers for year, month, sale type, and payment mode, allowing end users to filter and drill into the data instantly. Designed with a clean dark theme and clear KPIs, the dashboard helps stakeholders quickly identify sales trends, product performance, and operational focus areas.
-
-// This project demonstrates skills in data modeling, DAX calculations, and dashboard storytelling, making it ideal for business users looking to make data-informed decisions.`,
-//     features: [
-//       'Built using Power BI and Excel with real sales data',
-//       'Tracked KPIs such as total revenue, monthly trends, and top-selling products',
-//       'Used DAX to calculate dynamic metrics and year-over-year growth',
-//       'Interactive visuals with slicers and drill-through pages',
-//       'Designed for business users to make informed decisions quickly'
-//     ],
-//     technologies: [
-//       'Power BI',
-//       'DAX',
-//       'Excel',
-//       'Data Visualization',
-//       'KPI Dashboards',
-//       'Data Analysis'
-//     ],
-//     screenshots: ['/images/FinalScreenshot.png', '/images/otherproject.png'], // Add these to public/images
-//   },
-  // 'restaurant-db': {
-  //   title: 'Personal Portfolio Website',
-  //   description: 'A responsive React-based personal portfolio website designed to showcase my projects, skills, and experience. The site features smooth scroll navigation, dark mode toggle, project routing with React Router, and a contact form powered by EmailJS — all optimized for both desktop and mobile devices. It is deployed live on Vercel and integrates with GitHub for continuous deployment.',
-  //   features: [
-  //     'Built with React and React Router',
-  //     'Responsive design with smooth scroll navigation',
-  //     'Dark mode toggle with state management',
-  //     'EmailJS integration for contact form',
-  //     'Project detail pages using dynamic routing',
-  //     'Deployed on Vercel with GitHub CI/CD',
-  //   ],
-  //   technologies: [
-  //     'React',
-  //     'React Router',
-  //     'CSS',
-  //     'EmailJS',
-  //     'Git & GitHub',
-  //     'Vercel'
-  //   ],
-  //   liveDemo: 'https://portfolio-bhrugu1s-projects.vercel.app/',       // 👈 replace with your real URL
-  //   githubRepo: 'https://github.com/bhrugu1/portfolio'
-  //   //screenshots: ['/images/restaurant1.png'], 
-  // },
   'restaurant-db': {
   title: 'Personal Portfolio Website',
   description: `This project is my personal developer portfolio built with React to showcase my work, skills, and contact information. It serves as a centralized hub for recruiters, employers, and collaborators to learn more about me and explore my projects in detail.
@@ -158,7 +103,59 @@ It reflects my skills in frontend development, React component design, and clean
 
   liveDemo: 'https://portfolio-bhrugu1s-projects.vercel.app/',
   githubRepo: 'https://github.com/bhrugu1/portfolio'
+},  
+
+'netflix-analysis': {
+  title: 'Netflix Data Analysis',
+  description: `This project is an exploratory data analysis of Netflix's Movies and TV Shows dataset using Python, Pandas, and Seaborn. The goal was to uncover patterns in content types, country-wise contributions, genre popularity, and year-wise additions.
+
+Key focus areas included:
+- Cleaning and transforming messy data (e.g., missing dates, country names)
+- Extracting insights such as trends in content addition and genre diversity
+- Visualizing findings using Matplotlib and Seaborn charts
+- Handling common data issues like inconsistent formats, missing values, and grouped text fields`,
+
+  features: [
+    'Content trend analysis by year',
+    'Top contributing countries for Netflix titles',
+    'Most frequent genres and categories',
+    'TV Show vs Movie breakdown',
+    'Cleaned and structured messy data with null handling'
+  ],
+
+  technologies: [
+    'Python',
+    'Pandas',
+    'Seaborn',
+    'Matplotlib',
+    'Jupyter Notebook',
+    'CSV Data Handling'
+  ],
+
+  screenshots: ['/images/NetflixSS1.png', '/images/NetflixSS2.png', '/images/NetflixSS3.png', '/images/NetflixSS4.png'],
+
+  challenges: [
+    {
+      title: 'Missing and malformed values',
+      solution: 'Used pandas functions like `fillna`, `dropna`, and `astype` to clean and standardize the data safely.'
+    },
+    {
+      title: 'Parsing genres from grouped strings',
+      solution: 'Used string splitting and the `Counter` class to aggregate genre frequencies.'
+    },
+    {
+      title: 'Visual clarity and compatibility',
+      solution: 'Refined chart formatting and handled font/glyph warnings for cross-platform presentation.'
+    }
+  ],
+
+  outcome: `The project effectively demonstrated my ability to wrangle real-world datasets, analyze structured and unstructured data, and communicate findings through clear visualizations. It's a strong example of applied data storytelling using Python.`,
+
+  liveDemo: '', // If hosted anywhere
+  githubRepo: 'https://github.com/bhrugu1/netflix_analysis' // Replace with your actual repo if applicable
 }
+
+
 };
 
 function ProjectDetail() {
