@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Projects.css';
+import { motion } from 'framer-motion';
 
 const projectList = [
   {
@@ -18,13 +19,29 @@ const projectList = [
 function Projects() {
   return (
     <section id="projects" className="projects">
-      <h2>Projects</h2>
+      <motion.h2
+        initial={{ opacity: 0, y: 40 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        viewport={{ once: false, amount: 0.3 }}
+      >
+        Projects
+      </motion.h2>
+
       <div className="project-grid">
-        {projectList.map(project => (
-          <Link to={`/project/${project.id}`} className="project-card" key={project.id}>
-            <h3>{project.title}</h3>
-            <p>{project.summary}</p>
-          </Link>
+        {projectList.map((project, index) => (
+          <motion.div
+            key={project.id}
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: index * 0.2 }}
+            viewport={{ once: false, amount: 0.3 }}
+          >
+            <Link to={`/project/${project.id}`} className="project-card">
+              <h3>{project.title}</h3>
+              <p>{project.summary}</p>
+            </Link>
+          </motion.div>
         ))}
       </div>
     </section>
@@ -32,26 +49,3 @@ function Projects() {
 }
 
 export default Projects;
-
-// import React from 'react';
-// import './Projects.css';
-
-// function Projects() {
-//   return (
-//     <section id="projects" className="projects">
-//       <h2>Projects</h2>
-//       <div className="project-grid">
-//         <div className="project-card">
-//           <h3>SALES PERFORMANCE DASHBOARD </h3>
-//           <p>Interactive dashboard to track sales performance across products, regions, and time.</p>
-//         </div>
-//         <div className="project-card">
-//           <h3>PORTFOLIO WEBSITE</h3>
-//           <p>A sleek personal portfolio showcasing my skills and projects.</p>
-//         </div>
-//       </div>
-//     </section>
-//   );
-// }
-
-// export default Projects;

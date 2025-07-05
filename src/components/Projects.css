@@ -10,8 +10,8 @@
   border: 1px solid #eaeaea;
   border-radius: 12px;
   transition: transform 0.3s ease;
-  text-decoration: none;     /* removes underline */
-  color: inherit;            /* keeps your original text color */
+  text-decoration: none;
+  color: inherit;
   display: block;
 }
 
@@ -19,27 +19,36 @@
   transform: translateY(-5px);
 }
 
-
+/* Default (light mode) heading styles */
 .projects h2 {
   font-size: 42px;
   margin-bottom: 20px;
   font-weight: bold;
   text-align: center;
-  color: #f6f7f8;
+  color: #cccccc; /* Light mode heading */
 }
 
 .project-card h3 {
   font-size: 20px;
   margin-bottom: 10px;
-  color: white;
+  color: #111; /* Light mode card title */
 }
 
 .project-card p {
   font-size: 16px;
-  color: #555;
+  color: #cccccc;
 }
 
+/* Dark mode overrides */
+body.dark .projects h2 {
+  color: #f6f7f8;
+}
 
+body.dark .project-card h3 {
+  color: #f6f7f8;
+}
+
+/* Responsive styles */
 @media (max-width: 768px) {
   .header {
     flex-direction: column;

@@ -137,7 +137,7 @@ It reflects my skills in frontend development, React component design, and clean
     'Vercel',
     'HTML5',
     'JavaScript'
-  ],
+  ],  
 
   challenges: [
     {
