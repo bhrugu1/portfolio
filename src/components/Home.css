@@ -32,3 +32,14 @@
 .resume-button:hover {
   background-color: #0056b3;
 }
+
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;     /* Center vertically */
+  align-items: center;         /* Center horizontally */
+  min-height: 100vh;           /* Full viewport height */
+  text-align: center;
+  padding: 0 20px;
+}
+
