@@ -127,3 +127,24 @@ body.dark .project-button:hover {
   font-size: 24px;
   margin-bottom: 12px;
 }
+
+.challenges h3{
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.challenges li {
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #444;
+  text-align: justify;
+}
+
+.outcome h3 {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.outcome p {
+  text-align: justify;
+}
