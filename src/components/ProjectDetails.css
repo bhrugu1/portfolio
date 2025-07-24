@@ -214,6 +214,44 @@
   opacity: 1;
 }
 
+/* Interactive Map Styles */
+.map-container {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  border: 1px solid #e2e8f0;
+  margin-bottom: 15px;
+}
+
+.interactive-map {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+}
+
+.map-description {
+  font-size: 0.95rem;
+  color: #718096;
+  line-height: 1.6;
+  margin: 0;
+  text-align: center;
+  font-style: italic;
+}
+
+/* Dark mode support for map */
+body.dark .map-container {
+  border-color: #4a5568;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+}
+
+body.dark .map-description {
+  color: #a0aec0;
+}
+
 /* Challenges List */
 .challenges-list {
   display: flex;
