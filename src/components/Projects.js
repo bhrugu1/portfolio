@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 const projectList = [
   {
     id: 'municipal-liability-analytics',
-    title: 'CHICAGO CITY LIABILITY ANALYTICS PLATFORM',
+    title: 'CHICAGO LIABILITY ANALYTICS',
     summary: 'A comprehensive data analytics platform designed for the City of Chicago that processes 75,000 municipal liability claims to identify risk patterns and cost-saving opportunities.',
   },
   {
