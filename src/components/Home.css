@@ -15,7 +15,7 @@
 
 .section p {
   font-size: 20px;
-  color:#cccccc;
+  color: #555; /* Darker color for light mode readability */
 }
 .resume-button {
   display: inline-block;
@@ -41,5 +41,10 @@
   min-height: 100vh;           /* Full viewport height */
   text-align: center;
   padding: 0 20px;
+}
+
+/* Dark mode overrides */
+body.dark .section p {
+  color: #cccccc;
 }
 

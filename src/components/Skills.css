@@ -24,7 +24,7 @@
   margin-bottom: 6px;
   font-size: 18px;
   line-height: 1.6;
-  color: #cccccc;
+  color: #555; /* Darker color for light mode readability */
 }
 
 /* Match "Skills" heading to "About Me" heading */
@@ -32,4 +32,9 @@
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 30px;
+}
+
+/* Dark mode override for Skills */
+body.dark .skills-grid li {
+  color: #cccccc;
 }       

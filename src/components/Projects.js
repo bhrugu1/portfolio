@@ -7,22 +7,22 @@ const projectList = [
   {
     id: 'municipal-liability-analytics',
     title: 'CHICAGO LIABILITY ANALYTICS',
-    summary: 'A comprehensive data analytics platform designed for the City of Chicago that processes 75,000 municipal liability claims to identify risk patterns and cost-saving opportunities.',
+    summary: 'Comprehensive data analytics platform designed for the City of Chicago that processes 75,000 municipal liability claims using advanced ETL pipelines, NLP root cause analysis, and interactive geospatial visualization to identify risk patterns, operational oversights, and strategic cost-saving opportunities.',
   },
   {
     id: 'sales-dashboard',
     title: 'SALES PERFORMANCE DASHBOARD',
-    summary: 'Interactive dashboard built with Power BI to visualize regional sales performance.',
+    summary: 'Advanced business intelligence dashboard built with Power BI that transforms raw transactional supermarket data into interactive visualizations for sales performance monitoring, KPI tracking, and strategic decision-making.',
   },
   {
     id: 'restaurant-db',
     title: 'PERSONAL PORTFOLIO WEBSITE',
-    summary: 'A sleek personal portfolio showcasing my skills and projects.',
+    summary: 'Modern responsive React SPA featuring dynamic project routing, dark/light theme toggle, EmailJS contact integration, and professional UI/UX design optimized for both desktop and mobile recruitment scenarios.',
   },
   {
     id: 'netflix-analysis',
     title: 'NETFLIX DATA ANALYSIS',
-    summary: 'A Python-based exploratory data analysis on Netflix content trends using pandas and seaborn.',
+    summary: 'Comprehensive Python-based exploratory data analysis of Netflix\'s Movies and TV Shows dataset using advanced data science techniques to uncover content trends, genre patterns, and geographical distribution insights.',
   },
 ];
 

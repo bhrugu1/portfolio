@@ -24,17 +24,27 @@
 
 .job-entry .company {
   font-size: 16px;
-  color: #cccccc;
+  color: #666; /* Darker color for light mode readability */
   margin-bottom: 8px;
 }
 
 .job-entry p {
   font-size: 16px;
   line-height: 1.6;
-  color: #cccccc;
+  color: #555; /* Darker color for light mode readability */
+  text-align: justify;
 }
 .experience {
   text-align: justify; /* or 'left', 'right', 'justify' */
+}
+
+/* Dark mode overrides for Experience */
+body.dark .job-entry .company {
+  color: #cccccc;
+}
+
+body.dark .job-entry p {
+  color: #cccccc;
 }
 
 
