@@ -20,7 +20,7 @@ function Home() {
         transition={{ duration: 0.6, delay: 0.1 }}
         viewport={{ once: false, amount: 0.5 }}
       >
-        Aspiring Data Analyst & Developer | Specializing in Power BI, SQL & Python
+        Data Analyst | Driving Insights with Power BI, SQL & Python
       </motion.p>
 
       <motion.a
