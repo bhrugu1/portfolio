@@ -23,7 +23,7 @@ function Home() {
         Data Analyst | Driving Insights with Power BI, SQL & Python
       </motion.p>
 
-      <motion.a
+      {/* <motion.a
         href="/Bhrugu_Raval_Resume.pdf"
         target="_blank"
         rel="noopener noreferrer"
@@ -34,7 +34,7 @@ function Home() {
         viewport={{ once: false, amount: 0.5 }}
       >
         📄 Download Resume
-      </motion.a>
+      </motion.a> */} {/* ✅ Disabled */}
     </section>
   );
 }
