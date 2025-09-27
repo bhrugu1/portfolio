@@ -21,23 +21,15 @@ function Experience() {
         transition={{ duration: 0.8 }}
         viewport={{ once: false, amount: 0.3 }}
       >
-        <h3>JUNIOR DATA ANALYST</h3>
-        <div className="company">GVT Software Solutions | Ahmedabad, India | 2016–2019</div>
+        <h3>Data Analyst Co-op</h3>
+        <div className="company">Office of the Superintendent of Financial Institutions (OSFI) – Banking Department, Toronto, ON | September 2025 to Present</div>
         <p>
-          • Developed an Excel-based revenue tracking system that improved portfolio 
-          management efficiency by 20% for capital markets clients, supporting data-driven 
-          decision making.<br />
-          • Resolved data quality issues using Python and SQL, logging incidents in JIRA to 
-          support uninterrupted business operations.<br />
-          • Designed and maintained Tableau dashboards to visualize system performance and 
-          deliver weekly insights reporting and change tracking updates to stakeholders.<br /> 
-          • Partnered with cross-functional teams in Agile sprints to gather requirements and 
-          deliver optimized application updates.<br />
-          • Led training sessions on data management tools and supported self-serve analytics 
-          adoption, helping teams interpret reports and make actionable business insights.<br />
-          • Conducted data mining and trend analysis to support risk assessments, enabling 
-          continuous improvement in financial reporting and decision support tools.<br /><br />
-          <strong>Environment:</strong> Microsoft Excel, Power Query, Tableau, Python, PyCharm, JIRA, SQL
+          • Support regulatory banking analytics by building and maintaining data pipelines using Azure Synapse, PySpark, SQL, and Datalake.<br />
+          • Develop and automate Power BI dashboards to deliver actionable insights for banking supervision and risk management.<br />
+          • Cleanse, validate, and profile large financial datasets to ensure data quality and compliance with regulatory standards.<br />
+          • Collaborate with banking analysts and IT teams to optimize data workflows and reporting processes.<br />
+          • Document business requirements and data processes for internal knowledge sharing and audit readiness.<br />
+          • Gain hands-on experience in cloud data engineering and financial analytics within a regulatory environment.<br />
         </p>
       </motion.div>
     </section>
