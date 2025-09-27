@@ -23,16 +23,18 @@ function Experience() {
       >
         <h3>Data Analyst Co-op</h3>
         <div className="company">Office of the Superintendent of Financial Institutions (OSFI) – Banking Department, Toronto, ON | September 2025 to Present</div>
-        <p>
-          • Support regulatory banking analytics by building and maintaining data pipelines using Azure Synapse, PySpark, SQL, and Datalake.<br />
-          • Develop and automate Power BI dashboards to deliver actionable insights for banking supervision and risk management.<br />
-          • Cleanse, validate, and profile large financial datasets to ensure data quality and compliance with regulatory standards.<br />
-          • Collaborate with banking analysts and IT teams to optimize data workflows and reporting processes.<br />
-          • Document business requirements and data processes for internal knowledge sharing and audit readiness.<br />
-          • Gain hands-on experience in cloud data engineering and financial analytics within a regulatory environment.<br />
-          • Implemented data ingestion and transformation workflows to streamline regulatory reporting and reduce manual intervention.<br />
-          • Conducted ad-hoc data analysis to support banking risk assessments and presented findings to senior management.<br />
-        </p>
+        <ul>
+          <li>Built and maintained scalable data pipelines using Azure Synapse, PySpark, SQL, Power BI, and Datalake to support regulatory banking analytics and reporting.</li>
+          <li>Developed and automated dashboards in Power BI to communicate insights and support business decision-making for financial oversight.</li>
+          <li>Validated, cleansed, and profiled large structured and unstructured datasets, ensuring data quality and compliance with regulatory standards.</li>
+          <li>Collaborated with cross-functional teams, including IT and business analysts, to gather requirements, document business processes, and enhance data workflows.</li>
+          <li>Applied technical and analytical skills to support machine learning model deployment and data engineering workflows.</li>
+          <li>Participated in project planning and documentation, integrating lessons learned and supporting Agile and SDLC practices.</li>
+          <li>Conducted feasibility studies and contributed to business cases for system enhancements and innovation initiatives.</li>
+          <li>Demonstrated strong communication skills by presenting findings and collaborating with stakeholders in meetings and project reviews.</li>
+          <li>Gained hands-on experience in cloud data engineering, financial analytics, and data governance within a regulated environment.</li>
+          <li>Promoted a respectful, inclusive, and accessible work environment in accordance with organizational policies and provincial regulations.</li>
+        </ul>
       </motion.div>
     </section>
   );
