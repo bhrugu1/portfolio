@@ -30,6 +30,8 @@ function Experience() {
           • Collaborate with banking analysts and IT teams to optimize data workflows and reporting processes.<br />
           • Document business requirements and data processes for internal knowledge sharing and audit readiness.<br />
           • Gain hands-on experience in cloud data engineering and financial analytics within a regulatory environment.<br />
+          • Implemented data ingestion and transformation workflows to streamline regulatory reporting and reduce manual intervention.<br />
+          • Conducted ad-hoc data analysis to support banking risk assessments and presented findings to senior management.<br />
         </p>
       </motion.div>
     </section>
