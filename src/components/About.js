@@ -42,18 +42,25 @@ function About() {
         <h3>Education</h3>
         <div className="education-list">
           <div className="education-item">
-            <strong>Postgraduate Certificate — Data Application Development</strong>
-            <div>Seneca Polytechnic (Expected June 2026)</div>
+            <div className="edu-left">
+              <strong>Computer Programming</strong>
+              <div className="edu-degree">Diploma</div>
+            </div>
+            <div className="edu-right">
+              <div className="edu-school">Algonquin College, ON, Canada</div>
+              <div className="edu-date">January 2016 – December 2017</div>
+            </div>
           </div>
 
           <div className="education-item">
-            <strong>Computer Programming</strong>
-            <div>Algonquin College, ON, Canada | January 2016 – December 2017</div>
-          </div>
-
-          <div className="education-item">
-            <strong>College Diploma in Information Technology</strong>
-            <div>Nirma University, Ahmedabad, Gujarat | May 2012 – June 2015</div>
+            <div className="edu-left">
+              <strong>College Diploma in Information Technology</strong>
+              <div className="edu-degree">Diploma</div>
+            </div>
+            <div className="edu-right">
+              <div className="edu-school">Nirma University, Ahmedabad, Gujarat</div>
+              <div className="edu-date">May 2012 – June 2015</div>
+            </div>
           </div>
         </div>
         {/* If you want additional qualifications shown, we can add them here. */}

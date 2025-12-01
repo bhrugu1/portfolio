@@ -34,6 +34,86 @@ body.dark .about p {
   color: #cccccc;
 }
 
+/* Education styles */
+.education {
+  margin-top: 28px;
+}
+
+.education h3 {
+  font-size: 22px;
+  margin-bottom: 12px;
+  color: inherit;
+}
+
+.education-list {
+  display: grid;
+  gap: 12px;
+}
+
+.education-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 10px 12px;
+  border-radius: 6px;
+  transition: background 0.15s ease;
+}
+
+.education-item:hover {
+  background: rgba(0,0,0,0.03);
+}
+
+.edu-left {
+  flex: 1 1 55%;
+  min-width: 180px;
+}
+
+.edu-left strong {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.edu-degree {
+  color: #666;
+  font-size: 14px;
+}
+
+.edu-right {
+  flex: 0 0 40%;
+  text-align: right;
+  min-width: 140px;
+}
+
+.edu-school {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.edu-date {
+  color: #666;
+  font-size: 13px;
+}
+
+/* Dark mode adjustments */
+body.dark .education-item:hover {
+  background: rgba(255,255,255,0.03);
+}
+
+@media (max-width: 720px) {
+  .education-item {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .edu-right {
+    text-align: left;
+    margin-top: 6px;
+  }
+}
+
 
 @media (max-width: 768px) {
   .header {
