@@ -40,9 +40,22 @@ function About() {
         viewport={{ once: false, amount: 0.3 }}
       >
         <h3>Education</h3>
-        <p>
-          Postgraduate Certificate — Data Application Development, Seneca Polytechnic (Expected June 2026)
-        </p>
+        <div className="education-list">
+          <div className="education-item">
+            <strong>Postgraduate Certificate — Data Application Development</strong>
+            <div>Seneca Polytechnic (Expected June 2026)</div>
+          </div>
+
+          <div className="education-item">
+            <strong>Computer Programming</strong>
+            <div>Algonquin College, ON, Canada | January 2016 – December 2017</div>
+          </div>
+
+          <div className="education-item">
+            <strong>College Diploma in Information Technology</strong>
+            <div>Nirma University, Ahmedabad, Gujarat | May 2012 – June 2015</div>
+          </div>
+        </div>
         {/* If you want additional qualifications shown, we can add them here. */}
       </motion.div>
     </section>
