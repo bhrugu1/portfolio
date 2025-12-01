@@ -47,7 +47,7 @@ function About() {
               <div className="edu-degree">Diploma</div>
             </div>
             <div className="edu-right">
-              <div className="edu-school">Algonquin College, ON, Canada</div>
+              <div className="edu-school">Seneca Polytechnic, ON, Canada</div>
               <div className="edu-date">January 2016 – December 2017</div>
             </div>
           </div>
