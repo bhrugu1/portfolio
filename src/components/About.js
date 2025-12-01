@@ -43,23 +43,23 @@ function About() {
         <div className="education-list">
           <div className="education-item">
             <div className="edu-left">
-              <strong>Computer Programming</strong>
+              <strong>Database Application Developer</strong>
               <div className="edu-degree">Diploma</div>
             </div>
             <div className="edu-right">
               <div className="edu-school">Seneca Polytechnic, ON, Canada</div>
-              <div className="edu-date">January 2016 – December 2017</div>
+              <div className="edu-date">January 2016 – December 2016</div>
             </div>
           </div>
 
           <div className="education-item">
             <div className="edu-left">
-              <strong>College Diploma in Information Technology</strong>
+              <strong>B.Tech in Information Technology</strong>
               <div className="edu-degree">Diploma</div>
             </div>
             <div className="edu-right">
               <div className="edu-school">Nirma University, Ahmedabad, Gujarat</div>
-              <div className="edu-date">May 2012 – June 2015</div>
+              <div className="edu-date">May 2012 – June 2016</div>
             </div>
           </div>
         </div>
