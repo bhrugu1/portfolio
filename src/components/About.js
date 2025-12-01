@@ -20,7 +20,7 @@ function About() {
         transition={{ duration: 0.7 }}
         viewport={{ once: false, amount: 0.3 }}
       >
-        I’m a data-driven developer with hands-on experience in SQL, Power BI, Tableau, and Python, passionate about transforming raw information into impactful insights. With a strong foundation in data analysis and dashboard development, I’ve created revenue tracking systems, built interactive reports, and resolved data quality issues in collaborative, Agile environments. I enjoy identifying patterns in data and using visual storytelling to help teams understand and act on their metrics.
+        I’m a data-driven developer with hands-on experience in SQL, Power BI, Tableau, and Python, passionate about transforming raw information into impactful insights. With a strong foundation in data analysis, cloud data engineering, and dashboard development, I’ve built and automated reporting pipelines, created interactive reports, and resolved data quality issues in collaborative, Agile environments. I enjoy identifying patterns in data and using visual storytelling to help teams understand and act on their metrics.
       </motion.p>
 
       <motion.p
@@ -29,8 +29,22 @@ function About() {
         transition={{ duration: 0.7, delay: 0.2 }}
         viewport={{ once: false, amount: 0.3 }}
       >
-        Currently pursuing a postgraduate certificate in Data Application Development at Seneca Polytechnic, I’ve also gained experience working with cloud platforms like AWS and Azure to scale data workflows. My projects range from building ETL pipelines and designing RESTful APIs to developing full-scale database systems and sales performance dashboards. I’m driven by curiosity and continuous learning, with a growing interest in big data, DevOps practices, and machine learning. I thrive in fast-paced environments where data is used to power real-world decision-making.
+        Currently pursuing a Postgraduate Certificate in Data Application Development at Seneca Polytechnic, I’ve gained practical experience using Azure Synapse, PySpark, SQL and Power BI to design scalable data workflows and dashboards. My projects range from building ETL pipelines and automating reports to developing production-ready data models and visualization solutions. I’m driven by curiosity and continuous learning, with interests in machine learning, industrial analytics, and cloud-native data engineering. I thrive in fast-paced environments where data is used to power real-world decision-making.
       </motion.p>
+
+      <motion.div
+        className="education"
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, delay: 0.3 }}
+        viewport={{ once: false, amount: 0.3 }}
+      >
+        <h3>Education</h3>
+        <p>
+          Postgraduate Certificate — Data Application Development, Seneca Polytechnic (Expected June 2026)
+        </p>
+        {/* If you want additional qualifications shown, we can add them here. */}
+      </motion.div>
     </section>
   );
 }

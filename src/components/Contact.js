@@ -37,6 +37,15 @@ function Contact() {
         Contact Me
       </motion.h2>
 
+      <motion.p
+        initial={{ opacity: 0, y: 10 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+        viewport={{ once: false, amount: 0.3 }}
+      >
+        Email: <a href="mailto:bhrugu.ravall@gmail.com">bhrugu.ravall@gmail.com</a>
+      </motion.p>
+
       <motion.form
         ref={form}
         onSubmit={sendEmail}

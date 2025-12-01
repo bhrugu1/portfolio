@@ -24,8 +24,8 @@ function Skills() {
           <h4>Languages</h4>
           <ul>
             <li>Python</li>
-            <li>JavaScript</li>
             <li>SQL</li>
+            <li>JavaScript</li>
           </ul>
         </motion.div>
 
@@ -35,12 +35,12 @@ function Skills() {
           transition={{ duration: 0.6, delay: 0.2 }}
           viewport={{ once: false, amount: 0.2 }}
         >
-          <h4>Tools & Libraries</h4>
+          <h4>Cloud & Platforms</h4>
           <ul>
-            <li>Power BI</li>
-            <li>Excel</li>
-            <li>React</li>
-            <li>Tableau</li>
+            <li>Azure Synapse</li>
+            <li>Azure Data Lake</li>
+            <li>Azure Databricks / PySpark</li>
+            <li>AWS (familiar)</li>
             <li>Git & GitHub</li>
           </ul>
         </motion.div>
@@ -53,11 +53,11 @@ function Skills() {
         >
           <h4>Data & Analytics</h4>
           <ul>
-            <li>DAX</li>
-            <li>Pandas</li>
-            <li>NumPy</li>
-            <li>MySQL</li>
-            <li>Data Visualization</li>
+            <li>Power BI (DAX, report automation)</li>
+            <li>Pandas / NumPy</li>
+            <li>PySpark</li>
+            <li>SQL (T-SQL / MySQL)</li>
+            <li>Data Modeling & Visualization</li>
           </ul>
         </motion.div>
       </div>

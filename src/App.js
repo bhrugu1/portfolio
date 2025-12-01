@@ -21,7 +21,7 @@ function App() {
       <div className="App">
         <Header />
         <main>
-          <Routes>
+          <Routes>  
             <Route path="/" element={
               <>
                 <Home />
