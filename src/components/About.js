@@ -48,7 +48,7 @@ function About() {
             </div>
             <div className="edu-right">
               <div className="edu-school">Seneca Polytechnic, ON, Canada</div>
-              <div className="edu-date">January 2016 – December 2016</div>
+              <div className="edu-date">January 2017 – December 2017</div>
             </div>
           </div>
 
