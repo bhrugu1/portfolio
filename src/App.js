@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import './App.css';
-import { Analytics } from "@vercel/analytics/react"
+import { Analytics } from '@vercel/analytics/react';
 import Header from './components/header';
 import Home from './components/Home';
 import About from './components/About'; 
@@ -12,16 +12,16 @@ import Experience from './components/Experience';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import ProjectDetail from './components/ProjectDetails';
-import ScrollToTop from './components/ScrollToTop'; // ✅ import
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <Router>
-      <ScrollToTop /> {/* ✅ ensures route change scrolls to top */}
+      <ScrollToTop />
       <div className="App">
         <Header />
         <main>
-          <Routes>  
+          <Routes>
             <Route path="/" element={
               <>
                 <Home />
@@ -36,6 +36,7 @@ function App() {
           </Routes>
         </main>
         <Footer />
+        <Analytics />
       </div>
     </Router>
   );
