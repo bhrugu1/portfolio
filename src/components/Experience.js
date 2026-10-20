@@ -11,7 +11,7 @@ function Experience() {
         transition={{ duration: 0.6 }}
         viewport={{ once: false, amount: 0.3 }}
       >
-        Experience
+        Current Role
       </motion.h2>
 
 

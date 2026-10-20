@@ -32,7 +32,7 @@ function Header() {
         <Link to="/" onClick={() => setTimeout(() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' }), 100)}>About</Link>
         <Link to="/" onClick={() => setTimeout(() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' }), 100)}>Projects</Link>
         <Link to="/" onClick={() => setTimeout(() => document.getElementById('skills')?.scrollIntoView({ behavior: 'smooth' }), 100)}>Skills</Link>
-        <Link to="/" onClick={() => setTimeout(() => document.getElementById('experience')?.scrollIntoView({ behavior: 'smooth' }), 100)}>Experience</Link>
+        <Link to="/" onClick={() => setTimeout(() => document.getElementById('experience')?.scrollIntoView({ behavior: 'smooth' }), 100)}>Current Role</Link>
         <Link to="/" onClick={() => setTimeout(() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' }), 100)}>Contact</Link>
 
         <button
